@@ -108,4 +108,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void testfunction(){
+        System.out.println("Test");
+    }
 }
