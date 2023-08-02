@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+    <!-- action button for refresh -->
+    <item
+        android:title="refresh"
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/refresh_icon" />
+
+    <!-- action button for copy -->
+    <item
+        android:title="copy"
+        android:id="@+id/copy"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/copy_icon" />
+</menu>
